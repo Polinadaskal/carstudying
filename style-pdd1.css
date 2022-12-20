@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+ }
+ header {
+     width: 100%;
+     background: rgb(248, 183, 99);
+     box-shadow: 3px 3px 1px rgba(0, 0, 0, .05);
+     padding: 15px 0;
+     margin-bottom: 30px;
+     position: relative;
+     text-align: center;
+     border-radius: 2.5rem;
+  }
+h1{
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 150;
+    
+}
+.info {
+    background-color: rgb(255, 237, 215);
+    border-radius: 1rem;
+    text-align: left;
+    font-size: 1.3rem;
+    padding-left: 1.7rem;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+}
