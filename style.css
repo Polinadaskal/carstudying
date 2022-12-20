@@ -47,7 +47,7 @@ header {
    line-height: 40px;
 }
 #menu a:hover {
-   color: #EF5A42;
+   color: rgb(239, 90, 66);
 }
 #menu li:last-child {
    margin-right: 0;
@@ -133,12 +133,12 @@ ul {
     outline: none;
  }
  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     letter-spacing: 1px;
  }
  body {
-    font-family: 'Open Sans', arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     line-height: 1;
     color: #373737;
@@ -162,25 +162,33 @@ ul {
    background-color: rgb(251, 241, 220);
    text-align: center;
    align-items: center;
-   font-family: 'Playfair Display', serif;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
    background-size: cover;
    padding: 4rem 2rem;
    
  }
  .art-1 {
+   padding-top: 3%;
+   padding-bottom: 3%;
    background-color: rgb(248, 183, 99);
    border-radius: 2rem;
   
   }
   .art-2 {
+   padding-top: 3%;
+   padding-bottom: 3%;
    background-color: #F8B763;
    border-radius: 2rem;
   }
  .art-3 {
+   padding-top: 3%;
+   padding-bottom: 3%;
    background-color: #F8B763;
    border-radius: 2rem;
  }
  .art-4{
+   padding-top: 3%;
+   padding-bottom: 3%;
    background-color:#F8B763;
    border-radius: 2rem;
  }
@@ -194,6 +202,9 @@ ul {
    transition: all .3s;
    padding: 1rem;
    margin-top: .75rem;
+ }
+ .main a:hover {
+   background-color: rgb(239, 90, 66);
  }
 .art-1 > h2 {
    font-size: 2.5rem;
@@ -231,4 +242,6 @@ footer {
    background-color: rgb(162, 86, 24);
    color: white;
    font-size: 1rem;
+   flex: 0 0 auto;
 }
+
